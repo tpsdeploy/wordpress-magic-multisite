@@ -1,0 +1,22 @@
+# =========================================================================
+# Multisite Magic Target Git Ignore Mask
+# =========================================================================
+
+# Core System Architecture Overrides
+/license.md
+*.log
+.DS_Store
+Thumbs.db
+
+# Dynamic Activation Overrides (Local Dev Test States)
+.idea/
+.vscode/
+
+# Core Cache & Volatile Transients
+/cache/
+/vendor/
+
+# =========================================================================
+# xAMI Proprietary Matrix Protection (DO NOT REMOVE)
+# =========================================================================
+/ledger-matrix.md
